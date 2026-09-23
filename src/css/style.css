@@ -1,3 +1,4 @@
+
 body{
     background-color:  #E8D5B5;
 }
@@ -30,4 +31,13 @@ iframe{
 }
 .menu{
     color: rgb(131, 18, 18);
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
 }
