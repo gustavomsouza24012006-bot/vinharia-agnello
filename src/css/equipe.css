@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 a,
@@ -54,22 +55,12 @@ li {
     width: 450px;
 }
 
-.container-beginner_text h1 {
-    margin-bottom: 20px;
-    font-size: 45px;
-    color: #3A0F1B;
-}
 
 .container-beginner_text p {
     font-size: 15px;
     color: #00000079;
     line-height: 1.5;
 }
-
-
-
-
-
 
 /* Fundadores */
 .founder-image {
@@ -137,10 +128,6 @@ li {
     align-items: center;
 }
 
-
-
-
-
 /* Consultores */
 .container-consultants {
     background-color: #3A0F1B;
@@ -181,9 +168,6 @@ li {
 .container-third h6 {
     padding: 5px 0 5px 0;
 }
-
-
-
 
 
 /* Bastidores */
