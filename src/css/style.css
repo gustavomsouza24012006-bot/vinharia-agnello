@@ -19,25 +19,6 @@ body {
     padding: 0;
 }
 
-h1 {
-    color: rgb(245, 245, 245);
-    font-size: 40px;
-    padding: 20px;
-    font-family: 'georgia', serif;
-    width: 100%;
-    text-align: center;
-    background-color: #3A0F1B;
-
-}
-
-
-
-section h2 {
-    color: rgb(12, 12, 12);
-    font-size: 20px;
-    font-family: 'georgia', serif;
-    
-}
 
 iframe {
     width: 70%;
@@ -80,6 +61,17 @@ h2 {
 footer {
     background-color: #3A0F1B;
     color: #fff;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+
+.footer-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
 }
 
 
