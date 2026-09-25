@@ -64,9 +64,7 @@ table td {
     text-align: center;
 }
 
-table tr:last-child td {
-    border-bottom: none;
-}
+
 
 form label {
     display: block;
