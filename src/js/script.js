@@ -10,7 +10,6 @@ if ((tipoDoVinho != 'Tinto') || (tipoDoVinho != 'Branco') || (tipoDoVinho != 'Ro
 }else{
     alert("Cadastro realizado! Veja os detalhes no console.");
 }
-
 alert("A seguir, veja os detalhes do vinho no console.");
 
 console.log("==== CADASTRO DO VINHO ====");
