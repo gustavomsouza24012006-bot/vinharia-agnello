@@ -1,4 +1,4 @@
-//cadastro  de vinho
+//cadastro  de vinhos
 let nomeDoVinho = prompt("Digite o nome do vinho:");
 let tipoDoVinho = prompt("Digite o tipo do vinho (Tinto, Branco ou Rosé):");
 let safra = prompt("Digite a safra do vinho:");
