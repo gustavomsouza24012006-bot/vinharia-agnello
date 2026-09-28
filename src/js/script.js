@@ -1,3 +1,4 @@
+//cadastro  de vinho
 let nomeDoVinho = prompt("Digite o nome do vinho:");
 let tipoDoVinho = prompt("Digite o tipo do vinho (Tinto, Branco ou Rosé):");
 let safra = prompt("Digite a safra do vinho:");
@@ -12,3 +13,4 @@ console.log("Nome do vinho: " + nomeDoVinho);
 console.log("Tipo: " + tipoDoVinho);
 console.log("Safra: " + safra);
 console.log("Quantidade em estoque: " + quantidade);
+
