@@ -10,7 +10,7 @@ if (idade < 18) {
 
     alert("Idade invalida para cadastro");
 
-}else if((idade == "") || (endereco == "")|| ((cpf == ""))|| ((nome == ""))){
+} else if ((idade == "") || (endereco == "") || ((cpf == "")) || ((nome == ""))) {
     alert("Informações em branco, preencha as mesmas por gentileza ");
 
 } else {
