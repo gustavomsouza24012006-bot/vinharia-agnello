@@ -7,7 +7,7 @@ alert("Cadastro realizado! Veja os detalhes no console.");
 
 alert("A seguir, veja os detalhes do vinho no console.");
 
-console.log("=== CADASTRO DO VINHO ====");
+console.log("==== CADASTRO DO VINHO ====");
 console.log("Nome do vinho: " + nomeDoVinho);
 console.log("Tipo: " + tipoDoVinho);
 console.log("Safra: " + safra);
