@@ -51,6 +51,6 @@ vinharia-agnello/
 - Marina Lobato Soares
 
 ## GitHub Pages
-Link do site publicado: 
+Link do site publicado: https://gustavomsouza24012006-bot.github.io/vinharia-agnello/
 
 
