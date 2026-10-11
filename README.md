@@ -1,6 +1,6 @@
 # Vinharia Agnello
 
-🔗 **Site publicado:** https://gustavomsouza24012006-bot.github.io/vinharia-agnello/
+**Site publicado:** https://gustavomsouza24012006-bot.github.io/vinharia-agnello/
 
 
 ## Descrição do projeto
