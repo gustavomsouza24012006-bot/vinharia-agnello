@@ -16,7 +16,7 @@ vinharia-agnello/
 └── src/
     ├── assets/
     │   ├── css/
-    │   │   ├── style.css       # estilos globais e da página inicial
+    │   │   ├── style.css
     │   │   ├── historia.css
     │   │   ├── produtos.css
     │   │   ├── equipe.css
@@ -28,8 +28,8 @@ vinharia-agnello/
     │   │   ├── Vinharia.jpg
     │   │   └── Vinnho1.png
     │   └── js/
-    │       ├── script.js            # cadastro de vinhos
-    │       └── cadastroDePessoas.js # cadastro de pessoas
+    │       ├── script.js
+    │       └── cadastroDePessoas.js
     └── pages/
         ├── historia.html
         ├── produtos.html
