@@ -1,7 +1,7 @@
 # Vinharia Agnello
 
-## Descrição do projeto
-# Vinharia Agnello
+🔗 **Site publicado:** https://gustavomsouza24012006-bot.github.io/vinharia-agnello/
+
 
 ## Descrição do projeto
 
@@ -9,48 +9,50 @@ Site desenvolvido com base no caso da Vinheria Agnello, apresentando informaçõ
 
 ## Estrutura do projeto
 
+```bash
 vinharia-agnello/
 ├── index.html
 ├── README.md
-├── src/
-│   ├── assets/
-│   │   └── imgs/
-│   │       ├── banner.png
-│   │       ├── bianca.svg
-│   │       ├── giulio.svg
-│   │       ├── vinharia.jpg
-│   │       └── vinnho1.png
-│   ├── css/
-│   │   ├── contatos.css
-│   │   ├── equipe.css
-│   │   ├── historia.css
-│   │   ├── produtos.css
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   └── pages/
-│       ├── contatos.html
-│       ├── equipe.html
-│       ├── historia.html
-│       └── produtos.html
+└── src/
+    ├── assets/
+    │   ├── css/
+    │   │   ├── style.css       # estilos globais e da página inicial
+    │   │   ├── historia.css
+    │   │   ├── produtos.css
+    │   │   ├── equipe.css
+    │   │   └── contatos.css
+    │   ├── imgs/
+    │   │   ├── banner.png
+    │   │   ├── bianca.svg
+    │   │   ├── giulio.svg
+    │   │   ├── Vinharia.jpg
+    │   │   └── Vinnho1.png
+    │   └── js/
+    │       ├── script.js            # cadastro de vinhos
+    │       └── cadastroDePessoas.js # cadastro de pessoas
+    └── pages/
+        ├── historia.html
+        ├── produtos.html
+        ├── equipe.html
+        └── contatos.html
 ```
+
+---
 
 ## Explicação das páginas
 
 - `index.html`: página inicial do site, com apresentação da vinheria.
 - `historia.html`: mostra a história e a origem da marca.
 - `produtos.html`: apresenta os produtos e opções de vinhos.
-- `equipe.html`: exibe os integrantes e profissionais da empresa.
-- `contatos.html`: página de contato com informações e formulário de mensagem.
+- `equipe.html`: As pessoas da vinheria: família Agnello, consultores, como funciona o atendimento e a equipe de bastidores.
+- `contatos.html`: As pessoas da vinheria: família Agnello, consultores, como funciona o atendimento e a equipe de bastidores.
 
 ## Integrantes
-- Giovanna Ciola
-- Gustavo Moreira Souza
-- Jamil de Jesus Chaluppe Filho
-- Nathaly Vieira Barbosa
-- Marina Lobato Soares
 
-## GitHub Pages
-Link do site publicado: https://gustavomsouza24012006-bot.github.io/vinharia-agnello/
-
-
+| Integrante | Responsabilidade |
+|---|---|
+| Giovanna Ciola | |
+| Gustavo Moreira Souza | |
+| Jamil de Jesus Chaluppe Filho | |
+| Nathaly Vieira Barbosa | Página Equipe |
+| Marina Lobato Soares | |
