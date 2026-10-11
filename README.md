@@ -51,7 +51,7 @@ vinharia-agnello/
 
 | Integrante | Responsabilidade |
 |---|---|
-| Giovanna Ciola | |
+| Giovanna Ciola | Pagina Principal (index) |
 | Gustavo Moreira Souza | |
 | Jamil de Jesus Chaluppe Filho | |
 | Nathaly Vieira Barbosa | Página Equipe |
