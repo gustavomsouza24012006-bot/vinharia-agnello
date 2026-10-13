@@ -84,3 +84,92 @@ footer {
     justify-content: center;
     padding: 0;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: rgba(54, 0, 56, 0.301);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #3A0F1B;
+  color: #FAF5EB;
+  font-family: Georgia, serif;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+th {
+  background-color: #3A0F1B;
+  color: #D4AF6A;
+  padding: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #D4AF6A;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid#3A0F1B;
+  transition: background-color 0.3s ease,
+              color 0.3s ease;
+}
+
+tbody tr:hover td {
+  background-color:#532b36;
+  color: #FFD98A;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+img {
+  width: 300px;
+  border-radius: 12px;
+  border: 2px solid #D4AF6A;
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px #D4AF6A66;
+}
+
+/* Título principal */
+h1 {
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+  color: #000000;
+  font-family: Georgia, serif;
+}
+
+/* Textos comuns */
+p {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Efeito ao passar o mouse */
+h2:hover {
+  color: #000000;
+  transition: 0.3s;
+}
+
