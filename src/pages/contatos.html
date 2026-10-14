@@ -7,6 +7,7 @@
     <meta name="keywords" content="vinharia agnello, contato, vinhos">
     <meta name="description" content="Contato da Vinharia Agnello">
     <link rel="stylesheet" href="../assets/css/contatos.css">
+    <link rel="stylesheet" href="../assets/css/efeitos.css">
     <title>Vinharia Agnello - Contato</title>
 </head>
 
@@ -22,7 +23,7 @@
                     <li class="menu-item"><a href="../../index.html">Início</a></li>
                     <li class="menu-item"><a href="historia.html">História</a></li>
                     <li class="menu-item"><a href="produtos.html">Produtos</a></li>
-                    <li class="menu-item"><a href="contatos.html">Contato</a></li>
+                    <li class="menu-item"><a href="contatos.html" aria-current="page">Contato</a></li>
                     <li class="menu-item"><a href="equipe.html">Equipe</a></li>
                 </ul>
             </nav>
@@ -73,11 +74,25 @@
                         <label for="email">E-mail:</label>
                         <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
 
-                        <label>Assunto:</label>
-                        <input type="radio" name="assunto" value="duvida">Dúvida
-                        <input type="radio" name="assunto" value="elogio">Elogio
-                        <input type="radio" name="assunto" value="reclamacao">Reclamação
-                        <input type="radio" name="assunto" value="parceria">Parceria
+                        <span class="rotulo-assunto">Assunto:</span>
+                        <div class="opcoes-assunto">
+                            <div class="opcao-assunto">
+                                <input type="radio" name="assunto" id="assunto-duvida" value="duvida">
+                                <label for="assunto-duvida">Dúvida</label>
+                            </div>
+                            <div class="opcao-assunto">
+                                <input type="radio" name="assunto" id="assunto-elogio" value="elogio">
+                                <label for="assunto-elogio">Elogio</label>
+                            </div>
+                            <div class="opcao-assunto">
+                                <input type="radio" name="assunto" id="assunto-reclamacao" value="reclamacao">
+                                <label for="assunto-reclamacao">Reclamação</label>
+                            </div>
+                            <div class="opcao-assunto">
+                                <input type="radio" name="assunto" id="assunto-parceria" value="parceria">
+                                <label for="assunto-parceria">Parceria</label>
+                            </div>
+                        </div>
 
                         <label for="mensagem">Mensagem:</label><br>
                         <textarea name="mensagem" id="mensagem" rows="5" cols="40"

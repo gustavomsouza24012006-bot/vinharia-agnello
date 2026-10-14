@@ -1,0 +1,224 @@
+@keyframes design {
+    0% {
+        background-position: 100% center;
+    }
+
+    100% {
+        background-position: 0% center;
+    }
+}
+
+@keyframes contato-entrada {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container-header .title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #fff 35%, #c9a227 50%, #fff 65%);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    animation: design 3s ease-in-out infinite alternate;
+}
+
+.container-header_title::before {
+    content: "🍷";
+}
+
+.container-header .menu-item a {
+    position: relative;
+    display: inline-block;
+    transition: color 0.5s ease;
+}
+
+.container-header .menu-item a::after {
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    left: 10px;
+    height: 2px;
+    background: #c09926;
+    content: "";
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.container-header .menu-item a:hover,
+.container-header .menu-item a:focus-visible {
+    color: #c09926;
+}
+
+.container-header .menu-item a:hover::after,
+.container-header .menu-item a:focus-visible::after,
+.container-header .menu-item a[aria-current="page"]::after {
+    transform: scaleX(1);
+}
+
+.container-header .menu-item a:focus-visible,
+.formulario-section :focus-visible {
+    outline: 3px solid #d4af6a;
+    outline-offset: 3px;
+}
+
+.conteudo-contato > section {
+    animation: contato-entrada 0.65s ease both;
+}
+
+.conteudo-contato > section:nth-child(3) {
+    animation-delay: 0.12s;
+}
+
+.conteudo-contato > section:nth-child(4) {
+    animation-delay: 0.22s;
+}
+
+.container-informacoes dt::before {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #d4af6a;
+    content: "";
+}
+
+.formulario-section h2::before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 0 50% 50% 50%;
+    background: #6b1e33;
+    content: "";
+    transform: rotate(45deg);
+}
+
+.container-informacoes img {
+    border: 2px solid #d4af6a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-informacoes img:hover {
+    box-shadow: 0 0 18px #d4af6a66;
+    transform: scale(1.05);
+}
+
+.horario-contato tr:not(:first-child):hover td {
+    background: #3a0f1b;
+    color: #fff;
+}
+
+.horario-contato th,
+.horario-contato td {
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.rotulo-assunto {
+    display: block;
+    margin: 15px 0 8px;
+    color: #3a0f1b;
+    font-weight: bold;
+}
+
+.opcoes-assunto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.opcao-assunto {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.opcao-assunto input {
+    accent-color: #3a0f1b;
+}
+
+.opcao-assunto label {
+    display: inline;
+    margin: 0;
+    cursor: pointer;
+}
+
+.opcao-assunto input:checked + label {
+    color: #3a0f1b;
+    font-weight: bold;
+}
+
+.formulario-section input[type="text"],
+.formulario-section input[type="email"],
+.formulario-section textarea {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.formulario-section input[type="text"]:focus,
+.formulario-section input[type="email"]:focus,
+.formulario-section textarea:focus {
+    border-color: #3a0f1b;
+    box-shadow: 0 0 0 3px #3a0f1b1a;
+}
+
+.formulario-section button {
+    margin: 4px 8px 4px 0;
+    padding: 10px 14px;
+    border: 1px solid #3a0f1b;
+    border-radius: 4px;
+    background: #3a0f1b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.formulario-section button:hover {
+    background: #54202e;
+    box-shadow: 0 5px 12px #3a0f1b33;
+    transform: translateY(-2px);
+}
+
+.formulario-section button:active {
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .conteudo-contato > section {
+        animation: none;
+    }
+
+    .container-header .title {
+        animation: none;
+    }
+
+    .container-header .menu-item a,
+    .container-header .menu-item a::after,
+    .container-header .title,
+    .container-informacoes img,
+    .opcao-assunto,
+    .formulario-section input,
+    .formulario-section textarea,
+    .formulario-section button {
+        transition: none;
+    }
+
+    .container-informacoes img:hover,
+    .formulario-section button:hover,
+    .formulario-section button:active {
+        transform: none;
+    }
+}

@@ -45,7 +45,14 @@ vinharia-agnello/
 - `historia.html`: mostra a história e a origem da marca.
 - `produtos.html`: apresenta os produtos e opções de vinhos.
 - `equipe.html`: As pessoas da vinheria: família Agnello, consultores, como funciona o atendimento e a equipe de bastidores.
-- `contatos.html`: As pessoas da vinheria: família Agnello, consultores, como funciona o atendimento e a equipe de bastidores.
+- `contatos.html`: apresenta endereço, telefone, e-mail, horário de funcionamento e formulário para mensagens.
+
+## Efeitos Visuais
+
+- A página Contatos utiliza pseudo-classes como `:hover`, `:focus-visible`, `:checked` e `:nth-child()` para destacar a navegação, os campos e as opções do formulário.
+- Pseudo-elementos `::before` e `::after` acrescentam detalhes decorativos aos dados de contato e ao título do formulário.
+- A animação `@keyframes contato-entrada` apresenta suavemente as seções. Transições acompanham os estados interativos, e transformações aplicam movimento aos links, à imagem da fachada e aos botões.
+- Os efeitos de Contatos ficam em `src/assets/css/efeitos.css`, arquivo também importado por `style.css`. Equipe e Produtos já possuem efeitos próprios em seus CSS.
 
 ## Integrantes
 
