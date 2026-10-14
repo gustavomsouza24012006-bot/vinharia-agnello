@@ -12,6 +12,76 @@ li {
     text-decoration: none;
     list-style: none;
 }
+/* Cabecalho */
+@keyframes design {
+    0% {
+        background-position: 100% center;
+    }
+
+    /* luz escondida à esquerda */
+    100% {
+        background-position: 0% center;
+    }
+
+}
+
+.container-header .title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #fff 35%, #C9A227 50%, #fff 65%);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    animation: design 3s ease-in-out infinite alternate;
+}
+
+.menu-list {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.menu-item a:hover {
+    color: #c09926;
+}
+
+.menu-item a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #c09926;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.menu-item a:hover::after {
+    transform: scaleX(1);
+}
+
+
+.container-header_title::before {
+    content: "🍷";
+}
+
+.container-header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #3A0F1B;
+    align-items: center;
+}
 
 
 .title {
