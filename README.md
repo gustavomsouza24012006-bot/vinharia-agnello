@@ -19,6 +19,7 @@ vinharia-agnello/
     │   │   ├── style.css
     │   │   ├── historia.css
     │   │   ├── produtos.css
+    │   │   ├── efeitos.css
     │   │   ├── equipe.css
     │   │   └── contatos.css
     │   ├── imgs/
