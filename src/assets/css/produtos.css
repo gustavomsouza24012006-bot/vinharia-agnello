@@ -12,6 +12,7 @@ li {
     text-decoration: none;
     list-style: none;
 }
+
 /* Cabecalho */
 @keyframes design {
     0% {
@@ -111,7 +112,6 @@ li {
 }
 
 .menu-item a {
-    padding: 10px;
     color: white;
 }
 
@@ -152,6 +152,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
     padding: 0;
 }
 table, th, td {
@@ -253,8 +254,6 @@ h1:hover {
 }
 
 .decoracao {
-    border-left: 4px solid #300510e1;
-    border-right: 4px solid#300510e1;
     margin: 0 25px;
     padding: 20px;
 }

@@ -36,15 +36,14 @@
 
 .container-header .menu-item a {
     position: relative;
-    display: inline-block;
     transition: color 0.5s ease;
 }
 
 .container-header .menu-item a::after {
     position: absolute;
-    right: 10px;
-    bottom: 4px;
-    left: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 2px;
     background: #c09926;
     content: "";
@@ -53,14 +52,11 @@
     transition: transform 0.5s ease;
 }
 
-.container-header .menu-item a:hover,
-.container-header .menu-item a:focus-visible {
+.container-header .menu-item a:hover {
     color: #c09926;
 }
 
-.container-header .menu-item a:hover::after,
-.container-header .menu-item a:focus-visible::after,
-.container-header .menu-item a[aria-current="page"]::after {
+.container-header .menu-item a:hover::after {
     transform: scaleX(1);
 }
 
@@ -198,10 +194,6 @@
 
 @media (prefers-reduced-motion: reduce) {
     .conteudo-contato > section {
-        animation: none;
-    }
-
-    .container-header .title {
         animation: none;
     }
 
