@@ -60,7 +60,7 @@ vinharia-agnello/
 | Integrante | Responsabilidade |
 |---|---|
 | Giovanna Ciola | Pagina Principal (index) |
-| Gustavo Moreira Souza | |
-| Jamil de Jesus Chaluppe Filho | |
+| Gustavo Moreira Souza |Página historia |
+| Jamil de Jesus Chaluppe Filho |Página contatos|
 | Nathaly Vieira Barbosa | Página Equipe |
-| Marina Lobato Soares | |
+| Marina Lobato Soares |Página produtos |
