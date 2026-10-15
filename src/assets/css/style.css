@@ -110,3 +110,68 @@ footer {
     align-items: center;
     padding: 10px 30px 10px 30px;
 }
+
+/* estilizando com css */
+a, button, img, .menu-item {
+  transition: all 0.4s ease;
+}
+
+.menu-item a:hover {
+  color: #d4a017 !important;
+  transform: scale(1.1) translateY(-2px);
+}
+
+.menu-item:first-child a {
+  color: #722f37;
+  font-weight: bold;
+}
+
+a:focus, iframe:focus {
+  outline: 2px solid #722f37;
+  outline-offset: 3px;
+}
+
+/* 2 PSEUDO-ELEMENTOS - Aula 06 slide 20 */
+h2::before {
+  content: "✦ ";
+  color: #722f37;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #722f37;
+  margin-top: 8px;
+  transition: width 0.4s;
+}
+
+h2:hover::after {
+  width: 120px;
+}
+
+@keyframes entradaSuave {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+  animation: entradaSuave 1s ease-out;
+}
+
+main section {
+  animation: entradaSuave 0.8s ease-out backwards;
+}
+
+img:hover, iframe:hover {
+  transform: scale(1.03) rotate(1deg);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+iframe {
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
