@@ -111,7 +111,7 @@ footer {
     padding: 10px 30px 10px 30px;
 }
 
-/* estilizando com css */
+/* estilizando com css a pg inicial */
 a, button, img, .menu-item {
   transition: all 0.4s ease;
 }
@@ -167,11 +167,4 @@ main section {
 img:hover, iframe:hover {
   transform: scale(1.03) rotate(1deg);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
-
-iframe {
-  border-radius: 12px;
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
 }
